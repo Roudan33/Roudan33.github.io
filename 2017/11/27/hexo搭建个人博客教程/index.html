@@ -1,160 +1,189 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>hexo搭建个人博客教程 | roudan的博客</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-    <meta name="keywords" content="Roudan的博客" />
-  
-  <meta name="description" content="搭建个人博客教程搭建个人博客 一、基础环境配置 安装nodenode:一款运行效率非常高的web服务器，采用Javascript语法注：建议安装版本为6.x测试环境：win+r 回车，输入cmd回车，输入node -v  安装GitGit：版本控制器，团队协作开发的时候使用二、安装hexo脚手架 切换镜像（切换服务器）">
-<meta name="keywords" content="hexo,github,node">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo搭建个人博客教程">
-<meta property="og:url" content="http://yoursite.com/2017/11/27/hexo搭建个人博客教程/index.html">
-<meta property="og:site_name" content="roudan的博客">
-<meta property="og:description" content="搭建个人博客教程搭建个人博客 一、基础环境配置 安装nodenode:一款运行效率非常高的web服务器，采用Javascript语法注：建议安装版本为6.x测试环境：win+r 回车，输入cmd回车，输入node -v  安装GitGit：版本控制器，团队协作开发的时候使用二、安装hexo脚手架 切换镜像（切换服务器）： 1npm install -g cnpm --registry=https:">
-<meta property="og:updated_time" content="2017-11-28T08:18:28.399Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo搭建个人博客教程">
-<meta name="twitter:description" content="搭建个人博客教程搭建个人博客 一、基础环境配置 安装nodenode:一款运行效率非常高的web服务器，采用Javascript语法注：建议安装版本为6.x测试环境：win+r 回车，输入cmd回车，输入node -v  安装GitGit：版本控制器，团队协作开发的时候使用二、安装hexo脚手架 切换镜像（切换服务器）： 1npm install -g cnpm --registry=https:">
-  
-  
-    <link rel="icon" href="/favicon.ico">
-  
-  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="/js/pace.min.js"></script>
-  
-
-  
-  
-
-</head>
-
-<body>
-  <div id="container">
-      <header id="header">
-    <div id="banner"></div>
-    <div id="header-outer">
-        <div id="header-menu" class="header-menu-pos animated">
-            <div class="header-menu-container">
-                <a href="/" class="left">
-                    <span class="site-title">Roudan的博客</span>
-                </a>
-                <nav id="header-menu-nav" class="right">
-                    
-                    <a  href="/">
-                        <i class="fa fa-home"></i>
-                        <span>主页</span>
-                    </a>
-                    
-                    <a  href="/archives">
-                        <i class="fa fa-archive"></i>
-                        <span>档案</span>
-                    </a>
-                    
-                    <a  href="/about">
-                        <i class="fa fa-user"></i>
-                        <span>关于</span>
-                    </a>
-                    
-                </nav>
-                <a class="mobile-header-menu-button">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </div>
-        <div id="header-row">
-            <div id="logo">
-                <a href="/">
-                    <img src="/images/logo.gif" alt="logo">
-                </a>
-            </div>
-            <div class="header-info">
-                <div id="header-title">
-                    
-                    <h2>
-                        Roudan的博客
-                    </h2>
-                    
-                </div>
-                <div id="header-description">
-                    
-                    <h3>
-                        一个专注于学习 WEB 开发的技术博客
-                    </h3>
-                    
-                </div>
-            </div>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a title="Roudan" target="_blank" href="//minhow.com">
-                            <i class="fa fa-home fa-2x"></i></a>
-                    
-                        <a title="Github" target="_blank" href="//github.com/Roudan33">
-                            <i class="fa fa-github fa-2x"></i></a>
-                    
-                        <a title="Weibo" target="_blank" href="//weibo.com/_roudan">
-                            <i class="fa fa-weibo fa-2x"></i></a>
-                    
-                        <a title="Twitter" target="_blank" href="//twitter.com/huangminhow">
-                            <i class="fa fa-twitter fa-2x"></i></a>
-                    
-                        <a title="qq"  href="//user.qzone.qq.com/990276594">
-                            <i class="fa fa-qq fa-2x"></i></a>
-                    
-                </div>
-            </nav>
-        </div>
-    </div>
-</header>
-      <div class="outer">
-        <section id="main" class="body-wrap"><article id="post-hexo搭建个人博客教程" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <title>
         
-  
-    <h1 class="post-title" itemprop="name">
-      hexo搭建个人博客教程
-    </h1>
-    <div class="post-title-bar">
-      <ul>
-          
-              <li>
-                  <i class="fa fa-book"></i>
-                  
-                      <a href="/categories/笔记/">笔记</a>
-                  
-                      <a href="/categories/博客/">博客</a>
-                  
-                      <a href="/categories/web前端/">web前端</a>
-                  
-                      <a href="/categories/教程/">教程</a>
-                  
-              </li>
-          
-        <li>
-          <i class="fa fa-calendar"></i>  2017-11-27
-        </li>
-        <li>
-          <i class="fa fa-eye"></i>
-          <span id="busuanzi_value_page_pv"></span>
-        </li>
-      </ul>
-    </div>
-  
-
-          
-      </header>
+        hexo搭建个人博客教程 · fi3ework&#39;s Studio
+        
+    </title>
+    <link rel="icon" href= /assests/favicon.ico>
+    <!-- TODO: 在font-face加载完毕后改变字体  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
+    <!-- 提前加载place holder  -->
+    <style type="text/css">
+        @font-face {
+            font-family: 'Oswald-Regular';
+            src: url(/font/Oswald-Regular.ttf);
+        }
+    </style>
+    <style type="text/css">
+        .site-intro-placeholder {
+            position: absolute;
+            z-index: -2;
+            top: 0;
+            left: 0px;
+            width: calc(100% + 300px);
+            height: 100%;
+            background: repeating-linear-gradient(-45deg, #444 0, #444 80px, #333 80px, #333 160px);
+            background-position: center center;
+            transform: translate3d(-226px, 0, 0);
+            animation: gradient-move 2.5s ease-out 0s 1;
+        }
+        @keyframes gradient-move {
+        0% {
+            transform: translate3d(-226px, 0, 0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+</style>
+    <link rel="stylesheet" href = /css/style.css?v=20171020 />
+    <script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js" defer></script>
     
-    <div class="article-entry post-content" itemprop="articleBody">
-      
+    <script src="/scripts/main.js" defer></script>
+    <!-- 百度统计  -->
+    
+    <!-- 谷歌统计  -->
+    
+</head>
+    
+        <body class="post-body">
+    
+    
+<header class="header">
+
+    <div class="header-sidebar-menu">&#xe775;</div>
+    <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >fi3ework&#39;s Studio.</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">hexo搭建个人博客教程</a>
+            </div>
+    </div>
+    
+    <a class="home-link" href=/>fi3ework's Studio.</a>
+</header>
+    <div class="wrapper">
+        <div class="site-intro">
+    
+    <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
-            <h1 id="搭建个人博客教程"><a href="#搭建个人博客教程" class="headerlink" title="搭建个人博客教程"></a>搭建个人博客教程</h1><p>搭建个人博客</p>
+    <div class="site-intro-img" style="background-image: url(http://oumn0o088.bkt.clouddn.com/post-bg.jpg)"></div>
+    <div class="site-intro-placeholder"></div>
+    <div class="site-intro-meta">
+        <!-- 标题  -->
+        <h1 class="intro-title">
+            <!-- 主页  -->
+            
+            hexo搭建个人博客教程
+            <!-- 404 -->
+            
+        </h1>
+        <!-- 副标题 -->
+        <p class="intro-subtitle">
+            <!-- 主页副标题  -->
+            
+            
+            <!-- 404 -->
+            
+        </p>
+        <!-- 文章页meta -->
+        
+            <!-- 文章页标签  -->
+            
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-href = hexo>hexo</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-href = github>github</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-href = node>node</a>
+    
+</div>
+            
+            <div class="post-intro-meta">
+                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                <span class="post-intro-time">2017/11/27</span>
+            </div>
+        
+    </div>
+</div>
+        <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+        <script>
+            var browser = {
+                    versions: function () {
+                        var u = window.navigator.userAgent;
+                        return {
+                            userAgent: u,
+                            trident: u.indexOf('Trident') > -1, //IE内核
+                            presto: u.indexOf('Presto') > -1, //opera内核
+                            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                            iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者安卓QQ浏览器
+                            iPad: u.indexOf('iPad') > -1, //是否为iPad
+                            webApp: u.indexOf('Safari') == -1, //是否为web应用程序，没有头部与底部
+                            weixin: u.indexOf('MicroMessenger') == -1, //是否为微信浏览器
+                            uc: u.indexOf('UCBrowser') > -1 //是否为android下的UC浏览器
+                        };
+                    }()
+                }
+
+            function fontLoaded(){
+                console.log('font loaded');
+                if (document.getElementsByClassName('site-intro-meta')) {
+                    document.getElementsByClassName('intro-title')[0].classList.add('intro-fade-in');
+                    document.getElementsByClassName('intro-subtitle')[0].classList.add('intro-fade-in');
+                    var postIntroTags = document.getElementsByClassName('post-intro-tags')[0],
+                        postIntroMeat = document.getElementsByClassName('post-intro-meta')[0];
+                        if (postIntroTags) {
+                            postIntroTags.classList.add('post-fade-in');
+                        }
+                        if (postIntroMeat) {
+                            postIntroMeat.classList.add('post-fade-in');
+                        }
+                    }
+                }
+                
+            console.log("userAgent:" + browser.versions.userAgent);
+            // UC不支持跨域，所以直接显示
+            if (browser.versions.uc) {
+                console.log("UCBrowser");
+                fontLoaded();
+            } else {
+                WebFont.load({
+                    custom: {
+                        families: ['Oswald-Regular']
+                    },
+                    loading: function () {  //所有字体开始加载
+                        // console.log('loading');
+                    },
+                    active: function () {  //所有字体已渲染
+                        fontLoaded();
+                    },
+                    inactive: function () { //字体预加载失败，无效字体或浏览器不支持加载
+                        console.log('inactive: timeout');
+                        fontLoaded();
+                    },
+                    timeout: 7000 // Set the timeout to two seconds
+                });
+            }
+        </script>
+        <div class="container container-unloaded">
+            <main class="main post-page">
+    <article class="article-entry">
+        <h1 id="搭建个人博客教程"><a href="#搭建个人博客教程" class="headerlink" title="搭建个人博客教程"></a>搭建个人博客教程</h1><p>搭建个人博客</p>
 <h2 id="一、基础环境配置"><a href="#一、基础环境配置" class="headerlink" title="一、基础环境配置"></a>一、基础环境配置</h2><ol>
 <li>安装node<br>node:一款运行效率非常高的web服务器，采用Javascript语法<br>注：建议安装版本为6.x<br>测试环境：<pre><code>win+r 回车，输入cmd回车，输入node -v
 </code></pre></li>
@@ -241,298 +270,195 @@
 </li>
 </ol>
 
-            <div class="post-copyright">
-    <div class="content">
-        <p>最后更新： 2017年11月28日 16:18</p>
-        <p>原始链接： <a class="post-url" href="/2017/11/27/hexo搭建个人博客教程/" title="hexo搭建个人博客教程">http://yoursite.com/2017/11/27/hexo搭建个人博客教程/</a></p>
-        <footer>
-            <a href="http://yoursite.com">
-                <img src="/images/logo.gif" alt="Roudan">
-                Roudan
-            </a>
-        </footer>
-    </div>
-</div>
-
-      
+    </article>
+    <!-- 前后页  -->
+    <ul class="post-pager">
         
-            
-<div class="page-reward">
-    <a id="rewardBtn" href="javascript:;">赏</a>
-</div>
-
-<div id="reward" class="post-modal reward-lay">
-    <a class="close" href="javascript:;" id="reward-close">×</a>
-    <span class="reward-title">
-        <i class="icon icon-quote-left"></i>
-        多少都行~
-        <i class="icon icon-quote-right"></i>
-    </span>
-    <div class="reward-content">
         
-        <div class="reward-code">
-            <img id="rewardCode" src="/images/wechat_code.jpg" alt="打赏二维码">
-        </div>
-        <div class="reward-select">
-            
-            <label class="reward-select-item checked" data-id="wechat" data-wechat="/images/wechat_code.jpg">
-                <img class="reward-select-item-wechat" src="/images/wechat.png" alt="微信">
-            </label>
-            
-            
-            <label class="reward-select-item" data-id="alipay" data-alipay="/images/alipay_code.jpg">
-                <img class="reward-select-item-alipay" src="/images/alipay.png" alt="支付宝">
-            </label>
+            <li class="previous">
+                <a href= "/2017/11/25/markdown语法/" title= markdown语法 >
+                    <span>Previous Post</span>
+                    <span>markdown语法</span>
+                </a>
+            </li>
+        
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
+    
+    
+    <!--PC版-->
+
+    <!--PC版-->
+
+
+    
+</main>
+            <!-- profile -->
             
         </div>
-    </div>
-</div>
-
-
+        <footer class="footer footer-unloaded">
+    <!-- social  -->
+    
+    <div class="social">
         
-    </div>
-    <footer class="article-footer">
+    
         
-        
-<div class="post-share">
-    <a href="javascript:;" id="share-sub" class="post-share-fab">
-        <i class="fa fa-share-alt"></i>
-    </a>
-    <div class="post-share-list" id="share-list">
-        <ul class="share-icons">
-          <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2017/11/27/hexo搭建个人博客教程/&title=《hexo搭建个人博客教程》 — roudan的博客&pic=http://yoursite.comimages/logo.gif" data-title="微博">
-              <i class="fa fa-weibo"></i>
-            </a>
-          </li>
-          <li>
-            <a class="weixin share-sns" id="wxFab" href="javascript:;" data-title="微信">
-              <i class="fa fa-weixin"></i>
-            </a>
-          </li>
-          <li>
-            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2017/11/27/hexo搭建个人博客教程/&title=《hexo搭建个人博客教程》 — roudan的博客&source=个人博客" data-title="QQ">
-              <i class="fa fa-qq"></i>
-            </a>
-          </li>
-          <li>
-            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/11/27/hexo搭建个人博客教程/" data-title="Facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo搭建个人博客教程》 — roudan的博客&url=http://yoursite.com/2017/11/27/hexo搭建个人博客教程/&via=http://yoursite.com" data-title="Twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2017/11/27/hexo搭建个人博客教程/" data-title="Google+">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        </ul>
-     </div>
-</div>
-<div class="post-modal wx-share" id="wxShare">
-    <a class="close" href="javascript:;" id="wxShare-close">×</a>
-    <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2017/11/27/hexo搭建个人博客教程/" alt="微信分享二维码">
-</div>
-
-<div class="mask"></div>
-
-        
-        <ul class="article-footer-menu">
             
+                <a href="mailto:12345@qq.com" class="iconfont-archer email" title=email ></a>
             
-  <li class="article-footer-tags">
-    <i class="fa fa-tags"></i>
-      
-    <a href="/tags/hexo/" class="color5">hexo</a>
-      
-    <a href="/tags/github/" class="color2">github</a>
-      
-    <a href="/tags/node/" class="color5">node</a>
-      
-  </li>
-
-        </ul>
         
-    </footer>
-  </div>
-</article>
-
-
-    <aside class="post-toc-pos post-toc-top" id="post-toc">
-        <nav class="post-toc-wrap">
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#搭建个人博客教程"><span class="post-toc-text">搭建个人博客教程</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一、基础环境配置"><span class="post-toc-text">一、基础环境配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#二、安装hexo脚手架"><span class="post-toc-text">二、安装hexo脚手架</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#三、创建博客项目"><span class="post-toc-text">三、创建博客项目</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#四、git常用命令"><span class="post-toc-text">四、git常用命令</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#五、github的使用"><span class="post-toc-text">五、github的使用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#六、代码托管到github"><span class="post-toc-text">六、代码托管到github</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#七、域名解析"><span class="post-toc-text">七、域名解析</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#八、域名绑定到个人博客"><span class="post-toc-text">八、域名绑定到个人博客</span></a></li></ol></li></ol>
-        </nav>
-    </aside>
     
-
-<nav id="article-nav">
-  
-  
-    <a href="/2017/11/25/markdown语法/" id="article-nav-older" class="article-nav-link-wrap">
-      <span class="article-nav-title">markdown语法</span>
-      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-    </a>
-  
-</nav>
-
-
-
-    
-        <!--PC和WAP自适应版-->
-<div id="SOHUCS" sid="page.title"></div>
-<script type="text/javascript"> 
-    (function () {
-        var appid = 'cytl0raJK';
-        var conf = 'prod_e58bb462dcc05d689cdf28f6ce9c440d';
-        var width = window.innerWidth || document.documentElement.clientWidth;
-        if (width < 960) {
-            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
-        } else { var loadJs = function (d, a) { var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement; var b = document.createElement("script"); b.setAttribute("type", "text/javascript"); b.setAttribute("charset", "UTF-8"); b.setAttribute("src", d); if (typeof a === "function") { if (window.attachEvent) { b.onreadystatechange = function () { var e = b.readyState; if (e === "loaded" || e === "complete") { b.onreadystatechange = null; a() } } } else { b.onload = a } } c.appendChild(b) }; loadJs("https://changyan.sohu.com/upload/changyan.js", function () { window.changyan.api.config({ appid: appid, conf: conf }) }); }
-    })(); </script>
-    
-</section>
         
-      </div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-<p>
-    <span id="busuanzi_container_site_uv" style='display:none'>
-        总访客数：<span id="busuanzi_value_site_uv"></span>
-    </span>
-    <span id="busuanzi_container_site_pv" style='display:none'>
-        总访问量：<span id="busuanzi_value_site_pv"></span>
-    </span>
-</p>
+            
+                <a href="//github.com/fi3ework" class="iconfont-archer github" target="_blank" title="github"></a>
+            
+        
+    
+        
+    
+        
+            
+                <a href="/atom.xml" class="iconfont-archer rss" target="_blank" title="rss"></a>
+            
+        
+    
 
-
-        <p>
-          Powered by
-          <a href="http://hexo.io/" target="_blank">Roudan</a>
-          Theme
-          <a href="//github.com/wongminho/hexo-theme-miho" target="_blank">Randan</a>
-          &copy;
-          2017
-            Roudan
-              <br>
-        </p>
     </div>
-  </div>
+    
+    <!-- powered by Hexo  -->
+    <div class="copyright">
+        <span id="hexo-power">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></span><span class="iconfont-archer power">&#xe635;</span><span id="theme-info">Theme <a href="https://github.com/fi3ework/hexo-theme-archer" target="_blank">archer</a></span>
+    </div>
+    <!-- 不蒜子  -->
+    
 </footer>
-    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script>
-  var mihoConfig = {
-      root: "http://yoursite.com",
-      animate: true,
-      isHome: false,
-      share: true,
-      reward: 1
-  }
-</script>
-<div class="sidebar">
-    <div id="sidebar-search" title="Search">
-        <i class="fa fa-search"></i>
     </div>
-    <div id="sidebar-category" title="Categories">
-        <i class="fa fa-book"></i>
-    </div>
-    <div id="sidebar-tag" title="Tags">
-        <i class="fa fa-tags"></i>
-    </div>
-    <div id="sidebar-top">
-        <span class="sidebar-top-icon"><i class="fa fa-angle-up"></i></span>
-    </div>
-</div>
-<div class="sidebar-menu-box" id="sidebar-menu-box">
-    <div class="sidebar-menu-box-container">
-        <div id="sidebar-menu-box-categories">
-            <a class="category-link" href="/categories/笔记/">笔记</a><a class="category-link" href="/categories/笔记/博客/">博客</a><a class="category-link" href="/categories/笔记/博客/web前端/">web前端</a><a class="category-link" href="/categories/笔记/博客/web前端/教程/">教程</a>
+    <!-- toc -->
+    
+    <div class="toc-wrapper">
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
         </div>
-        <div id="sidebar-menu-box-tags">
-            <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/node/" style="font-size: 10px;">node</a>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#搭建个人博客教程"><span class="toc-number">1.</span> <span class="toc-text">搭建个人博客教程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、基础环境配置"><span class="toc-number">1.1.</span> <span class="toc-text">一、基础环境配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、安装hexo脚手架"><span class="toc-number">1.2.</span> <span class="toc-text">二、安装hexo脚手架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、创建博客项目"><span class="toc-number">1.3.</span> <span class="toc-text">三、创建博客项目</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、git常用命令"><span class="toc-number">1.4.</span> <span class="toc-text">四、git常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#五、github的使用"><span class="toc-number">1.5.</span> <span class="toc-text">五、github的使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#六、代码托管到github"><span class="toc-number">1.6.</span> <span class="toc-text">六、代码托管到github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#七、域名解析"><span class="toc-number">1.7.</span> <span class="toc-text">七、域名解析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#八、域名绑定到个人博客"><span class="toc-number">1.8.</span> <span class="toc-text">八、域名绑定到个人博客</span></a></li></ol></li></ol>
+    </div>
+    
+    <div class="back-top">&#xe639;</div>
+    <div class="sidebar">
+    <div class="sidebar-header sidebar-header-show-archive">
+        <div class="sidebar-category">
+            <span class="sidebar-archive-link"><span class="iconfont-archer">&#xe67d;</span>Archive</span>
+            <span class="sidebar-tags-link"><span class="iconfont-archer">&#xe610;</span>Tag</span>
         </div>
     </div>
-    <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
-</div>
-<div class="mobile-header-menu-nav" id="mobile-header-menu-nav">
-    <div class="mobile-header-menu-container">
-        <span class="title">Menus</span>
-        <ul class="mobile-header-menu-navbar">
-            
-            <li>
-                <a  href="/">
-                    <i class="fa fa-home"></i><span>主页</span>
-                </a>
-            </li>
-            
-            <li>
-                <a  href="/archives">
-                    <i class="fa fa-archive"></i><span>档案</span>
-                </a>
-            </li>
-            
-            <li>
-                <a  href="/about">
-                    <i class="fa fa-user"></i><span>关于</span>
-                </a>
-            </li>
-            
-        </ul>
+    <div class="sidebar-content sidebar-content-show-archive">
+          <div class="sidebar-archive">
+    <!-- 在ejs中将archive按照时间排序 -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="total-archive"> Total : 3 </div>
+    
+    <div class="post-archive">
+    
+    
+    
+    
+    <div class="archive-year"> 2017 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/27</span><a class="archive-post-title" href= "/2017/11/27/hexo搭建个人博客教程/" >hexo搭建个人博客教程</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/25</span><a class="archive-post-title" href= "/2017/11/25/markdown语法/" >markdown语法</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/24</span><a class="archive-post-title" href= "/2017/11/24/静夜思/" >静夜思</a>
+        </li>
+    
     </div>
-    <div class="mobile-header-tag-container">
-        <span class="title">Tags</span>
-        <div id="mobile-header-container-tags">
-            <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/node/" style="font-size: 10px;">node</a>
-        </div>
-    </div>
-</div>
-<div class="search-wrap">
-    <span class="search-close">&times;</span>
-        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
-            <i class="icon icon-lg icon-chevron-left"></i>
-        </a>
-        <input class="search-field" placeholder="Search..." id="keywords">
-        <a id="search-submit" href="javascript:;">
-            <i class="fa fa-search"></i>
-        </a>
-    <div class="search-container" id="search-container">
-        <ul class="search-result" id="search-result">
-        </ul>
-    </div>
-</div>
-
-<div id="search-tpl">
-    <li class="search-result-item">
-        <a href="{url}" class="search-item-li">
-            <span class="search-item-li-title" title="{title}">{title}</span>
-        </a>
-    </li>
-</div>
-<script src="/js/search.js"></script>
-<script src="/js/main.js"></script>
-
-
-  <script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script>
-  <div id="particles"></div>
-  <script src="/js/particles.js"></script>
-
-
-
-
-
-
-
-  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
-  <script src="//cdn.bootcss.com/scrollReveal.js/3.0.5/scrollreveal.js"></script>
-  <script src="/js/animate.js"></script>
-
   </div>
-</body>
+        <div class="sidebar-tags">
+    <div class="sidebar-tags-name">
+    
+        <span class="sidebar-tag-name"><a href= "#">hexo</a></span>
+    
+        <span class="sidebar-tag-name"><a href= "#">github</a></span>
+    
+        <span class="sidebar-tag-name"><a href= "#">node</a></span>
+    
+    </div>
+    <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
+    缺失模块。<br/>
+    1、请确保node版本大于6.2<br/>
+    2、在博客根目录（注意不是archer根目录）执行以下命令：<br/>
+    <span style="color: #f75357; font-size: 1rem; line-height: 2rem;">npm i hexo-generator-json-content --save</span><br/>
+    3、在根目录_config.yml里添加配置：
+    <pre style="color: #888; font-size: 0.6rem;">
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true</pre>
+    </div> 
+    <div class="sidebar-tag-list"></div>
+</div>
+    </div>
+</div> 
+    <script>
+    var jsInfo = {
+        root: '/'
+    }
+</script>
+    <!-- 不蒜子  -->
+    
+    <!-- CNZZ统计  -->
+    
+    </div>
+    </body>
 </html>
+
+
